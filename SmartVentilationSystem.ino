@@ -11,7 +11,7 @@ DHT_nonblocking dht_sensor(DHT_SENSOR_PIN, DHT_SENSOR_TYPE);
 Servo myservo; // Create a servo object
 
 // Define temperature threshold (in Fahrenheit)
-const float TEMP_THRESHOLD = 72.0;
+const float TEMP_THRESHOLD = 65.0;
 
 // Track servo position to avoid unnecessary movements
 int currentServoPos = 0;
